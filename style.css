@@ -207,3 +207,17 @@ button {
         color: #ef4343;
     }
 }
+
+@media only screen and (max-width: 600) {
+    .scoreDisplay {
+        font-size: 50%;
+        width: 70%
+    }
+}
+
+@media only screen and (max-width: 320) {
+    .scoreDisplay {
+        font-size: 30%;
+        width: 70%
+    }
+}
