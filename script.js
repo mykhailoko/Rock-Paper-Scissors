@@ -60,7 +60,7 @@ function playGame(playerChoice) {
     }
 
     setTimeout(() => {
-        resultDisplay.textContent = "Make your choice";
+        resultDisplay.textContent = "Make your choice:";
         resultDisplay.classList.remove("greenText", "redText");
         computerDisplay.src = `static/images/robot.png`;
         rockDisplay.style.display = 'flex';
