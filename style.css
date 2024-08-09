@@ -189,12 +189,6 @@ button {
         color: #7921b5;
     }
 
-    #rock {
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
-    }
-
     .scoreDisplay {
         display: flex;
         flex-direction: row;
@@ -248,7 +242,7 @@ button {
         position: absolute;
         padding-top: 0%;
         padding-bottom: 0%;
-        margin-top: -70px;
+        margin-top: -60px;
     }
 
     .title {
@@ -262,11 +256,6 @@ button {
 
     .onechoice {
         margin-top: 0px;
-    }
-
-    #computerDisplay {
-        width: 30%;
-        height: 30%;
     }
 
     button {
