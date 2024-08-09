@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="static/images/mainrock.png">
+</head>
+<body>
+    <div class="game">
+        <div class="rectangle"></div>
+        <div class="scoreDisplay">
+            <div class="mainscore" id="firstscore"><h2>Win:</h2> <h2 id="win" class="onescore">0</h2></div>
+            <div class="mainscore"><h2>Draw:</h2> <h2 id="draw" class="onescore">0</h2></div>
+            <div class="mainscore" id="lastscore"><h2>Lose:</h2> <h2 id="lose" class="onescore">0</h2></div>
+        </div>
+        <div class="maingame">
+            <img src="static/images/robot.png" alt="robot" id="computerDisplay">
+            <h1 class="title" id="resultDisplay">Make your choice:</h1>
+            <img src="static/images/rock.png" alt="playerDisplay" id="playerDisplay">
+            <div class="choices">
+                <button onclick="playGame('rock')"><img src="static/images/rock.png" alt="rock" class="onechoice" id="rock"></button>
+                <button onclick="playGame('paper')"><img src="static/images/paper.png" alt="paper" class="onechoice" id="paper"></button>
+                <button onclick="playGame('scissors')"><img src="static/images/scissors.png" alt="scissors" class="onechoice" id="scissors"></button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
