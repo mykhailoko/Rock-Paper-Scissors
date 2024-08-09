@@ -146,6 +146,14 @@ button {
         display: none;
     }
 
+    .maingame {
+        text-align: center;
+        position: absolute;
+        padding-top: 40%;
+        padding-bottom: 40%;
+        margin-top: 0px;
+    }
+
     .choices {
         padding-left: 40px;
         padding-right: 40px;
@@ -183,12 +191,16 @@ button {
     .scoreDisplay {
         display: flex;
         flex-direction: row;
-        font-size: 140%;
+        font-size: 100%;
         justify-content: center;
         margin: 0 auto;
-        width: 100%;
+        width: 140%;
         padding-left: 0px;
         gap: 20%;
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .mainscore {
@@ -208,16 +220,41 @@ button {
     }
 }
 
-@media only screen and (max-width: 600) {
+@media only screen and (max-width: 600px) {
     .scoreDisplay {
-        font-size: 50%;
-        width: 70%
+        display: flex;
+        flex-direction: row;
+        font-size: 80%;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+        padding-left: 0px;
+        gap: 20%;
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
     }
-}
 
-@media only screen and (max-width: 320) {
-    .scoreDisplay {
-        font-size: 30%;
-        width: 70%
+    .maingame {
+        text-align: center;
+        position: absolute;
+        padding-top: 100%;
+        padding-bottom: 70%;
+        margin-top: 0px;
+    }
+
+    .title {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        width: 100%;
+        color: #7921b5;
+        font-size: 200%;
+    }
+
+    .onechoice {
+        width: 60%;
+        height: 90%;
     }
 }
