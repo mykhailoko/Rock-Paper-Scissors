@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0px;
 }
@@ -257,8 +261,17 @@ button {
     }
 
     .onechoice {
-        width: 60%;
-        height: 90%;
-        margin-top: 5px;
+        margin-top: 0px;
+    }
+
+    #computerDisplay {
+        width: 30%;
+        height: 30%;
+    }
+
+    button {
+        padding: 0;
+        width: 50%;
+        height: 40%;
     }
 }
